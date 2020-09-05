@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context=".Mission">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MISSION"
+            android:textSize="22dp"
+            android:id="@+id/mission"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mission"
+            android:layout_margin="10dp"
+            android:id="@+id/missiontext"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="To achieve acadamic excellence in engineering and management through dedication to duty, offering state of the art education and faith in human values.
+\n\nTo create and endure learning among students community and develop outstanding professionals with high ethical standards.
+\n\nTo mould the personality of students to make them confident and dynamic youth, for the growth of sociey and industry"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISION"
+            android:textSize="22dp"
+            android:id="@+id/vision"
+            android:layout_below="@+id/missiontext"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/vision"
+            android:layout_margin="10dp"
+            android:id="@+id/visiontext"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="To be an acadamic institution in vibrant social and economic environment, striving continuously for excellence in education,research and technological service to the society"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="QUALITY POLICY"
+            android:textSize="22dp"
+            android:id="@+id/QUALITY"
+            android:layout_below="@+id/visiontext"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_marginTop="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/QUALITY"
+            android:layout_margin="10dp"
+            android:id="@+id/qualitytext"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:text="Develop technical, management human resource of excellence suitable for global standards.
+\n\nEnsure quality acadamic team work for shaping technical, management education to meet industry requirements
+"
+            />
+
+    </RelativeLayout>
+
+
+</ScrollView>

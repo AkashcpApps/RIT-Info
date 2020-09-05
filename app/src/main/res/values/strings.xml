@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">RIT Info</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Rajeev Institute of Technology</string>
+    <string name="nav_header_subtitle">www.rithassan.org</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="Roots">Roots</string>
+    <string name="Timings">Timings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_explore_rit">ExploreRIT</string>
+    <string name="tieups">
+        We always believe in the quality of education, so our partners in the training and placement are the best one in corporate world. We have many forms of relationships with different types of organizations, for a variety of reasons that may include training the students, regular counseling, the recruitment of students etc.
+    </string>
+    <string name="placement">
+        It is always great pleasure to be part in the success story of our student’s future.\n
+In RIT placement cell, we are providing all the necessary training and placement opportunity to ensure that every student leaves the campus with desired offer of their choice in hand. We are training our students from the first day of their college life, to produce skilled human resource for various industries. The RIT placement cell continuously works on providing up to date knowledge and training to students on flexible industry requirements.\n
+We have been conducting recruitment interviews from various companies successfully. We are also ensuring the best facilities and environment for the recruiters in our campus. With great training facilities, experienced trainers and dedicated coordinators, RIT placement cell welcomes you to the path of your dreams. We are happy to help you, to reach your goals.
+    </string>
+    <string name="title_activity_guest_login">GuestLogin</string>
+    <string name="title_activity_home">HomeActivity</string>
+</resources>

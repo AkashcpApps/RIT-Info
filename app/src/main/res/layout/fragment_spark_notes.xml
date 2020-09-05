@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/white"
+    tools:context=".SparkNotes">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:id="@+id/editText_name"
+        android:background="#fafafa"
+android:layout_margin="10dp"
+        android:textColor="@color/colorPrimary"
+        android:textColorHint="@color/design_default_color_primary_dark"
+        android:hint="Tap to Enter Your Notes here"
+        android:fontFamily="sans-serif-condensed"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp">
+
+        <EditText
+            android:id="@+id/editText_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:background="#fafafa"
+            android:hint="Enter Notes Number"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/design_default_color_primary_dark" />
+
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/editText_id"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/colorAccent"
+            android:text="ADD"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="150dp"
+
+            android:layout_height="50dp"
+            android:layout_below="@+id/editText_id"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/colorAccent"
+            android:text="DELETE"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_viewAll"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/button_add"
+
+            android:layout_margin="10dp"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/colorAccent"
+            android:text="VIEW"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_update"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/button_add"
+
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_back"
+            android:backgroundTint="@color/colorAccent"
+            android:text="Update"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:text="HELP"
+            android:textColor="@color/design_default_color_primary"
+            android:textSize="18dp" />
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/button_update"
+            android:layout_above="@+id/textViewac"
+            android:layout_alignParentStart="true"
+            android:layout_centerHorizontal="true"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="lamp.json"
+            app:lottie_loop="true" />
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Home">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="674dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="674dp">
+
+            <com.github.ybq.android.spinkit.SpinKitView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                style="@style/SpinKitView.Large.Wave"
+                android:layout_width="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="130dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorAccent" />
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carouselView"
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                app:fillColor="#FFFFFFFF"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="3000"
+                app:strokeColor="#FF777777"
+                app:strokeWidth="1dp"/>
+            <com.github.ybq.android.spinkit.SpinKitView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/spin_kit"
+                style="@style/SpinKitView.Large.Wave"
+                android:layout_width="wrap_content"
+                android:layout_below="@+id/carouselView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                app:SpinKit_Color="@color/colorAccent" />
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carouselViewquoites"
+                android:layout_width="450dp"
+                android:layout_height="280dp"
+                app:fillColor="#FFFFFFFF"
+                android:layout_marginTop="7dp"
+                android:layout_below="@+id/carouselView"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="6000"
+                android:scaleType="fitXY"
+                android:importantForAutofill="yes"
+                android:layout_marginBottom="7dp"
+                app:strokeColor="#FF777777"
+                app:strokeWidth="1dp"/>
+
+            <ImageView
+
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:id="@+id/ritimage"
+                android:tint="@color/white"
+                android:layout_margin="15dp"
+                android:src="@drawable/icon_launcher"
+                />
+
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/tab"
+        android:gravity="center_horizontal"
+        android:transitionGroup="true"
+        android:background="@drawable/action_bar_gradient"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+        <ImageView
+            android:id="@+id/facebook"
+            android:layout_width="25dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="25dp"
+            android:layout_marginRight="30dp"
+
+            android:src="@drawable/icon_facebook"
+            android:tint="@android:color/white"
+            />
+        <ImageView
+            android:id="@+id/instagram"
+            android:layout_width="25dp"
+            android:layout_marginRight="30dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/mini_logo_instagram"
+            android:tint="@android:color/white"
+            />
+
+
+        <ImageView
+            android:id="@+id/google_plus"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center"
+            android:tint="@android:color/white"
+            android:src="@drawable/icon_web"/>
+
+        <ImageView
+            android:id="@+id/youtube"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_play"
+            android:tint="@android:color/white"
+            />
+        <ImageView
+            android:id="@+id/twitter"
+            android:layout_width="25dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/icon_twitter"
+            android:tint="@android:color/white"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

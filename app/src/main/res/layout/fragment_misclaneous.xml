@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".Misclaneous">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Physical Education"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/phtext" />
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/phtext"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/phhod"
+        android:layout_margin="5dp"
+        android:layout_below="@+id/phtext"
+        />
+    <TextView
+        android:id="@+id/name1"
+        android:layout_below="@+id/phhod"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:text="Mr Umesh B D "/>
+    <TextView
+        android:id="@+id/designation1"
+        android:layout_toRightOf="@+id/name1"
+        android:layout_above="@+id/post1"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginLeft="8dp"
+        android:textSize="12dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_height="wrap_content"
+        android:text="M.PEd , M.PhiL"/>
+    <TextView
+        android:id="@+id/post1"
+        android:layout_below="@+id/name1"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_school"
+        android:layout_height="wrap_content"
+        android:text="Physical Education Director"/>
+    <TextView
+        android:id="@+id/mail1"
+        android:layout_below="@+id/post1"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_mail"
+        android:layout_height="wrap_content"
+        android:text="umeshbd@gmail.com"/>
+    <TextView
+        android:id="@+id/number1"
+        android:layout_below="@+id/mail1"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_call"
+        android:layout_height="wrap_content"
+        android:text="9663714172"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number1"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:text="Physical education is an integral part of an education system. A sound mind in a sound
+body- Sports help the students to become fit physically, emotionally, and mentally. We,
+at RIT, encourage the students to involve in sports activities, as much as we encourage them
+in studies. The idea of sports is to make the students learn to treat both defeat and success
+with equanimity. It also fosters discipline, courage and leadership qualities in students. At
+RIT, several invitational and university sports events are conducted. The students have also
+participated in several inter-collegiate and university sports events and brought accolades
+to the institute."/>
+
+
+
+
+</RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".ComputerScience">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Computer Science"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/colorAccent"
+        android:textSize="22dp"
+        android:textStyle="bold"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="95dp"/>
+    <ImageView
+        android:id="@+id/cshodimage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/head"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@+id/cshodimage"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:text="Dr Prakash H N "/>
+    <TextView
+        android:id="@+id/designation"
+        android:layout_toRightOf="@+id/name"
+        android:layout_above="@+id/post"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginLeft="8dp"
+        android:textSize="12dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_height="wrap_content"
+        android:text="B.E , M.Tech , Ph.D , MISTE"/>
+    <TextView
+        android:id="@+id/post"
+        android:layout_below="@+id/name"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_school"
+        android:layout_height="wrap_content"
+        android:text="Professor and Head"/>
+    <TextView
+        android:id="@+id/mail"
+        android:layout_below="@+id/post"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_mail"
+        android:layout_height="wrap_content"
+        android:text="prakash_hn@yahoo.com"/>
+    <TextView
+        android:id="@+id/number"
+        android:layout_below="@+id/mail"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_call"
+        android:layout_height="wrap_content"
+        android:text="9448775514"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:text="The Department of Computer Science and Engineering is a force for innovation, sceintific study and impact.
+
+It was established  in the year  2008 with an intake of 60 students in the year 2008-2009 and from 2014-2015,it enhanced the intake from 60 to 120 students for the
+Bachelor of Engineering.It also offers Master of Technology course in Computer Science and Engineering with an intake of 24 students.It has consistency fullfilled its
+role of producing Computer Engineers ready to meet the demands of IT world.The department has always attracted the best of engineering aspirants from all over
+the country.
+
+The department has a team of highly motivated faculty members,who are in the process of tuning the young minds to make them globally competitive.Innovative methods of
+teaching and learning process are adopted to achieve learning abilities through practice,exposure and motivation.The department has excellent computing facilities
+and provides a conductive environment to promote academic excellence ithe department.
+
+The faculty members of the department have published their technical papers in several National and International conferences and also in journals.Along with
+teaching,the department is actively involved in organizing various activites like Faculty Development Programs,Seminars,Workshops,etc.
+
+The department aims to establish as a Centre of Excellence in Education and Research in the field of computer Science and Engineering to facilitate the transformation
+of students into good human beings,responsible citizens and competent professionals.
+"/>
+    <TextView
+        android:id="@+id/head2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculties"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/description"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/head2"
+        android:id="@+id/csrecycle"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>
+
+</ScrollView>

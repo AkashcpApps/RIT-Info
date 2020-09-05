@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "702884770036",
+    "firebase_url": "https://ritinfo-cdd32.firebaseio.com",
+    "project_id": "ritinfo-cdd32",
+    "storage_bucket": "ritinfo-cdd32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:702884770036:android:60be8bb52445a36f",
+        "android_client_info": {
+          "package_name": "com.rithassan.info"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "702884770036-gmn0j94eafob4hehgaqveuf19aq57hdc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rithassan.info",
+            "certificate_hash": "d9d4922299b4df80c7167fa237807d5978d47fd7"
+          }
+        },
+        {
+          "client_id": "702884770036-cq0aa6fdd6ib3648pq04n660bm328j36.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpAf6hVsJnYe3CRNKCv9jSMCIfcuiYZfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "702884770036-cq0aa6fdd6ib3648pq04n660bm328j36.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".Electronics">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electronics and Communications "
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="95dp"/>
+        <ImageView
+            android:id="@+id/echodimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:layout_below="@+id/head"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/echodimage"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Dr Aravind B N "/>
+        <TextView
+            android:id="@+id/designation"
+            android:layout_toRightOf="@+id/name"
+            android:layout_above="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="8dp"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="B.E , M.Tech , Ph.D"/>
+        <TextView
+            android:id="@+id/post"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_school"
+            android:layout_height="wrap_content"
+            android:text="Professor and Head"/>
+        <TextView
+            android:id="@+id/mail"
+            android:layout_below="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_mail"
+            android:layout_height="wrap_content"
+            android:text="aravin_bn@yahoo.com"/>
+        <TextView
+            android:id="@+id/number"
+            android:layout_below="@+id/mail"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_call"
+            android:layout_height="wrap_content"
+            android:text="9844385450"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:text="The department of Electronics and Communication Engineering, is engaged in research,design,development and testing of the equipments used in every computing and
+communication system.We combine the vigor of science,the power of Engineering and the thrill of discovery,and make life and work more easier and productive.
+The department has well qualified,experienced and dedicated faculty providing excellent teaching and learning environment.The department regularly conducts workshops
+and training programs on advanced technologies for the upgradtion of students' knowledge and makes them compatible with industry requirments.
+The department has always been on a high growth path to keep pace with the ever increasing importance of the major disciplines of study and current technology trends.
+The program emphasizes on the basis of electronics,computers,communication engineering and instrumentation.
+"/>
+        <TextView
+            android:id="@+id/head2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculties"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/description"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/head2"
+            android:id="@+id/ecrecycle"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</ScrollView>

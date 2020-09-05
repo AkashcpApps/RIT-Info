@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    tools:context=".President">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/progressstart"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="60dp" />
+        <ImageView
+            android:id="@+id/rajeevimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/rajeevimage"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Dr. V RAJEEV "/>
+        <TextView
+            android:id="@+id/designation"
+            android:layout_below="@+id/name"
+android:layout_marginLeft="20dp"            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text="M.B.B.S , M.D"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_below="@+id/designation"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:text="Dr. V Rajeev, the founder, president of Rajeev Education Trust ® and Chairman of Rajeev Institute of Technology, was born on 22nd May 1956 to Sri. Vishakante Gowda and Smt. Nanjamma, a farmer couple in a hamlet named Jittenahally in Arkalgud Taluk, Hassan.
+
+\n\nAs a school going boy Dr. V Rajeev was always wondering about the most respectable profession. One fine day, he saw a group of college students wearing white aprons in front of Mysore Medical College. This particular incident deeply influenced him to pursue the field of medicine and become a doctor. Since then, he has never looked back, and his achievements speak volumes about his grit and determination.
+
+\n\nOn one occasion, Dr. V Rajeev had an offer to become an Assistant Professor in a medical college and on another occasion, he had a chance to get appointed as a government doctor. This would have given him a stable life and a secure job.
+
+\n\nHowever, believing in the saying “You will either step forward in growth or you will step backward into safety”, Dr. V Rajeev started working as a duty doctor under a senior doctor named Dr. Dodde Gowda in a private hospital. He worked selflessly and incessantly, gathering the experience required to become a successful doctor.
+
+\n\nWith a clear vision and high hopes, he established Rajeev Hospital and Rajeev Nursing Home in 1996, contributing to the well being and healthcare of the public.
+
+\n\nAs a doctor Dr. V Rajeev never restricted himself just to remain as a medical practitioner. A strong believer in the human values, he had always been exploring the ways through which he can contribute to the society at large. He felt the need for a quality technical education in the District of Hassan. This made him a visionary and philanthropist and drove him to think of establishing a technical institute.
+
+\n\nThe real challenge began when Dr. V Rajeev planned to establish Rajeev Institute of Technology under the Rajeev Education Trust. It was an uphill task for him as he was from a non-technical background. But, a man with the grit of steel that he is, nothing could stop him.
+
+\n\nBecause of Dr. V Rajeev’s humble and sincere nature, help and support pored in from various spheres of the society. In spite of all the hurdles and criticism, he was able to successfully start the institute with the strong support of Mr. Vittal. As a well wisher Mr. Vittal helped Dr. V Rajeev at every step, in making Rajeev Institute of Technology a reality in 2007-08.
+"
+            />
+    </RelativeLayout>
+
+</ScrollView>

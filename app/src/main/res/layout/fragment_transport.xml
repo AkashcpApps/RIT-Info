@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Transport">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/id1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:padding="10dp"
+            android:text="Transportation"
+            android:textAllCaps="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/id11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id1"
+            android:layout_margin="10dp"
+            android:text="RIT runs fleet of vehicles including several buses to transport students from campus to their locations. The transport facility is also provided to students and the staff of the colleges from different places of Hassan and surrounding area.\n\nThe buses are also provided to the students for University related works, fests, sports, placements and cultural competitions held in different colleges."
+            android:textColor="@color/colorPrimary"
+            android:textSize="15dp"
+            android:textStyle="italic" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id11"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp" />
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/id11"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/image1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp" />
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image1"
+            android:layout_margin="5dp" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/image2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp" />
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image2"
+            android:layout_margin="5dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:id="@+id/text12"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:text="Bus Routes"
+            android:textStyle="bold"
+            android:layout_below="@+id/image3"/>
+
+
+        <TextView
+            android:id="@+id/bus1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text12"
+            android:layout_centerHorizontal="true"
+            android:text="Bus Number 1"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimary" />
+
+        <de.codecrafters.tableview.TableView
+            xmlns:table="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tableView1"
+            android:layout_width="match_parent"
+            android:layout_height="620dp"
+
+            android:layout_below="@+id/bus1"
+            table:tableView_headerColor="@color/lightbluew"
+            table:tableView_headerElevation="10" />
+        <TextView
+            android:id="@+id/bus2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tableView1"
+            android:text="Bus Number 2"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimary" />
+
+        <de.codecrafters.tableview.TableView
+            xmlns:table="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tableView2"
+            android:layout_width="match_parent"
+            android:layout_height="420dp"
+            android:layout_below="@+id/bus2"
+            table:tableView_headerColor="@color/lightbluew"
+            table:tableView_headerElevation="10" />
+        <TextView
+            android:id="@+id/bus3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tableView2"
+            android:text="Bus Number 3"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimary" />
+
+        <de.codecrafters.tableview.TableView
+            xmlns:table="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tableView3"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+
+            android:layout_below="@+id/bus3"
+            table:tableView_headerColor="@color/lightbluew"
+            table:tableView_headerElevation="10" />
+        <TextView
+            android:id="@+id/bus4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tableView3"
+            android:text="Bus Number 4"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimary" />
+
+        <de.codecrafters.tableview.TableView
+            xmlns:table="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tableView4"
+            android:layout_width="match_parent"
+            android:layout_height="635dp"
+            android:layout_below="@+id/bus4"
+            table:tableView_headerColor="@color/lightbluew"
+            table:tableView_headerElevation="10" />
+        <TextView
+            android:id="@+id/bus5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tableView4"
+            android:text="Bus Number 5"
+            android:textStyle="bold"
+            android:layout_margin="20dp"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textColor="@color/colorPrimary" />
+
+        <de.codecrafters.tableview.TableView
+            xmlns:table="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/tableView5"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/bus5"
+            table:tableView_headerColor="@color/lightbluew"
+            table:tableView_headerElevation="10" />
+
+    </RelativeLayout>
+</ScrollView>

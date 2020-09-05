@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".Mechanical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mechanical Engineering "
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="95dp"/>
+        <ImageView
+            android:id="@+id/mehodimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/head"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/mehodimage"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Dr Dhananjaya D A "/>
+        <TextView
+            android:id="@+id/designation"
+            android:layout_toRightOf="@+id/name"
+            android:layout_above="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="8dp"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="B.E , M.Tech , Ph.D"/>
+        <TextView
+            android:id="@+id/post"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_school"
+            android:layout_height="wrap_content"
+            android:text="Professor and Head"/>
+        <TextView
+            android:id="@+id/mail"
+            android:layout_below="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_mail"
+            android:layout_height="wrap_content"
+            android:text="dhananjayada@rediffmail.com"/>
+        <TextView
+            android:id="@+id/number"
+            android:layout_below="@+id/mail"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_call"
+            android:layout_height="wrap_content"
+            android:text="9986121677"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:text="The Department of Mechanical Engineering was established in the year 2008 with an intake of 60 students in the yaer 2008-2009 for the Bachelor of Engineering course.
+During 2009-2010 intake was enhanced to 120 students.The department was also started Master of Technology in Thermal Power Engineering program in year 2013-2014,with
+an intake of 24 students.The department has excellent facilities for education.With dedicated,highly qualified and experienced faculty,it is creating an environment
+conductive  for learning.
+
+Keeping itself upto date with the latest development trends in the field,the laboratories and workshop are well equipped with modern instruction and machineries.The
+department has spacious and well-furnished classrooms,workshop,machine shop,and computer laboratories.The CAD Lab is equipped with 70 branded PCs with latest
+configurations.The CAMD Lab is equipped with 70 branded PCs with latest configurations.All the systems are connected through LAN and provided with latest softwares
+like ANSYS,Solid Edge,EdgeCAM,CADEM etc.
+
+The department regularly organizes various technical events for students,which include workshops,technical talks,industrial visits and seminars.This will broaden the
+perspective of the students exposing them to latest technological trends.Several passed out students of the department are placed in reputed companies like Quest,MTAB-
+DENFORD,HCL,HAL Bnagalore,LandT,Infosys,Mahindra and Mahindra etc.
+"/>
+        <TextView
+            android:id="@+id/head2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculties"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/description"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/head2"
+            android:id="@+id/merecycle"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/loginscrool"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/action_bar_gradient"
+    tools:context=".LoginActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relativelogin">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO \nRAJEEV INSTITTUTE OF TECHNOLOGY"
+        android:textSize="15dp"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_below="@+id/text"
+        android:layout_height="100dp"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/icon_launcher"
+        />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="275dp"
+        android:id="@+id/usn"
+        android:layout_marginTop="50dp"
+        app:boxStrokeColor="@color/white"
+        app:errorEnabled="true"
+        android:layout_below="@+id/image"
+        android:textColorHint="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/usntext"
+            android:layout_width="275dp"
+            android:layout_height="wrap_content"
+            android:cursorVisible="true"
+            android:windowSoftInputMode="stateHidden"
+            android:hint="Student USN / STAFF ID"
+            android:textStyle="bold"
+            android:maxLength="12"
+            android:textAllCaps="true"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_school"
+            android:drawableTint="@color/white"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+            android:inputType="textCapCharacters" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Get Started"
+        android:layout_below="@+id/usn"
+        android:textSize="16dp"
+        android:textColor="@color/white"
+        android:background="@drawable/simpleback"
+        android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/guestlogin"
+            android:layout_width="250dp"
+            android:text="GUEST LOGIN"
+            android:textColor="@color/white"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/register"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:layout_marginTop="50dp"
+            android:layout_height="60dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/privacypolicy"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/guestlogin"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:text="Privacy Policy"/>
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/animation_view"
+            android:layout_width="fill_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/privacypolicy"
+            app:lottie_autoPlay="true"
+            app:lottie_fileName="loading.json"
+            app:lottie_loop="true" />
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_below="@+id/animation_view"
+            android:layout_height="wrap_content"
+            android:text="© Rajeev Institute of Technology"
+            android:layout_centerHorizontal="true"
+            android:textSize="18dp"
+            android:textColor="@android:color/darker_gray"
+            />
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

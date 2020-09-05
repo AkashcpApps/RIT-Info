@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Placement">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+            android:id="@+id/placementvisioncard">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="PLACEMENTS"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/placedstudentslist"
+                    android:textStyle="bold"
+android:layout_centerHorizontal="true"                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"/>
+
+                <ProgressBar xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/progressstart"
+
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="0dp" />
+                <com.github.chrisbanes.photoview.PhotoView
+                    android:layout_height="300dp"
+                    android:layout_below="@+id/placedstudentslist"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="5dp"
+                    android:layout_width="match_parent"
+                    android:id="@+id/placementtop"
+                    />
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+            android:id="@+id/placementdeskcard"
+            android:layout_below="@id/placementvisioncard"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="FROM THE PLACEMENT DESK"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/placementdesk"
+                    android:textStyle="bold"
+                    android:textAlignment="center"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/placementdesk"
+                    android:text="@string/placement"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/placement"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorPrimary"/>
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/placement"
+                    android:layout_margin="30dp"
+                    android:layout_height="wrap_content" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"
+                    android:layout_below="@+id/placement"
+                    android:layout_margin="15dp"
+                    android:id="@+id/placementofficerphoto"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/placementofficername"
+                    android:layout_height="wrap_content"
+                    android:text="Mr. RAVIKUMAR\nPlacement Officer\nPlacement Cell, RIT, Hassan"
+                    android:layout_below="@+id/placement"
+                    android:textColor="@color/colorAccent"
+                    android:layout_marginTop="25dp"
+                    android:layout_toRightOf="@+id/placementofficerphoto"
+                    android:textStyle="bold"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+
+            android:id="@+id/placementtieupcard"
+            android:layout_below="@+id/companycard">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tieups"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="PLACEMENT DEPARTMENT TIE-UPS"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tieups"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tieups"
+                    android:id="@+id/tieuptext"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/tieuptext"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="We are proud to introduce you, our knowledge patners."
+                    android:id="@+id/partners_text"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+
+                    android:textColor="@color/colorPrimary" />
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/partners_text"
+                    android:id="@+id/seventhsensecard"
+                    android:layout_marginLeft="20dp"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white">
+
+
+                        <ImageView
+                            android:layout_width="125dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/seventhsense"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="SEVENTH SENSE"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:id="@+id/seventhsensetext"
+                            android:layout_toRightOf="@+id/seventhsense"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/colorPrimaryDark"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/seventhsense"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="12dp"
+                            android:layout_below="@+id/seventhsensetext"
+                            android:text="Talent Solutions\nPhone : 080 – 4174 4141\nEmail : info@seventhsensetalent.com"/>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+                <android.support.v7.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/seventhsensecard"
+                    android:id="@+id/tenseccard"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    app:cardElevation="10dp"
+                    app:cardCornerRadius="5dp"
+                    android:layout_marginBottom="10dp">
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@color/white">
+
+
+                        <ImageView
+                            android:layout_width="125dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/tensec"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="10 SECONDS "
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:id="@+id/tensectext"
+                            android:layout_toRightOf="@+id/tensec"
+                            android:layout_marginLeft="5dp"
+                            android:textColor="@color/colorPrimaryDark"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/tensec"
+                            android:layout_marginLeft="5dp"
+                            android:textSize="12dp"
+                            android:layout_below="@+id/tensectext"
+                            android:text="Science of Success\nPhone : +91-97311 44344\nEmail : anijithshetty@10seconds.co.in"/>
+
+                    </RelativeLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+            </RelativeLayout>
+
+
+
+        </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/placementplacedcard"
+            android:layout_margin="5dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+            android:layout_below="@id/placementtieupcard">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Current Acadamic Year Achivements"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="21sp"
+                    android:id="@+id/achieve"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:textAlignment="center"/>
+                <RelativeLayout
+                    android:layout_width="300dp"
+                    android:layout_height="300dp"
+                    android:layout_below="@+id/achieve"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="16dp">
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:id="@+id/clock"
+                        android:layout_height="150dp">
+                        <ImageView
+                            android:id="@+id/trainingimage"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:tint="@color/colorAccent"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/clock"/>
+
+                        <TextView
+                            android:id="@+id/trainingedit"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/trainingimage"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="0dp"
+                            android:text="700"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/trainingedit"
+                            android:layout_centerHorizontal="true"
+                            android:text="Training Hours"
+                            android:textColor="@color/colorPrimary"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:id="@+id/trainingtext"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:id="@+id/drive"
+                        android:layout_toRightOf="@+id/clock"
+                        android:layout_height="150dp">
+                        <ImageView
+                            android:id="@+id/drivesimage"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:tint="@color/colorAccent"
+
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/drives"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/drivesimage"
+                            android:text="60"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/drivesedit"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/drivesedit"
+                            android:layout_centerHorizontal="true"
+                            android:text="Drives Conducted"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:textColor="@color/colorPrimary"
+                            android:id="@+id/drivestext"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:id="@+id/company"
+                        android:layout_below="@id/clock"
+                        android:tint="@color/colorAccent"
+
+                        android:layout_height="150dp">
+                        <ImageView
+                            android:id="@+id/companyimage"
+                            android:layout_width="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:layout_height="50dp"
+                            android:src="@drawable/company"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="70"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_below="@+id/companyimage"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/companyedit"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/companyedit"
+                            android:text="Companies Visited"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/colorPrimary"
+                            android:id="@+id/companytext"/>
+
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:layout_width="150dp"
+                        android:layout_toRightOf="@id/company"
+                        android:layout_below="@id/drive"
+
+                        android:layout_height="150dp">
+                        <ImageView
+                            android:id="@+id/placedimage"
+                            android:layout_width="50dp"
+                            android:tint="@color/colorAccent"
+
+                            android:layout_height="50dp"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/about"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/placedimage"
+                            android:text="554"
+                            android:textColor="@color/colorPrimary"
+                            android:textSize="20dp"
+                            android:textStyle="bold"
+                            android:layout_centerHorizontal="true"
+                            android:id="@+id/placededit"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/placededit"
+                            android:text="Students Placed"
+                            android:textStyle="bold"
+                            android:textSize="15dp"
+                            android:layout_centerHorizontal="true"
+                            android:textColor="@color/colorPrimary"
+                            android:id="@+id/placedtext"/>
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+
+            android:id="@+id/placementtrainingcard"
+            android:layout_below="@id/placementplacedcard">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="TRAINING WE PROVIDE "
+                    android:textAlignment="center"
+                    android:id="@+id/trainingprovide"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22dp"
+                    android:textStyle="bold" />
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"/>
+
+                <ViewFlipper
+                    android:id="@+id/slider1"
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/trainingprovide"
+                    />
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/lefticon"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:tint="@color/colorAccent"
+                    android:backgroundTint="@color/colorAccent"
+                    android:background="@drawable/previousicon"/>
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/righticon"
+                    android:backgroundTint="@color/colorAccent"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/nexticon"/>
+
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardElevation="10dp"
+            app:cardCornerRadius="5dp"
+
+            android:id="@+id/placementsupervisioncard"
+            android:layout_below="@id/placementtrainingcard">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="SUPERVISION COMMITTEE"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="22dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/supertext"
+                    android:textAlignment="center"/>
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/supervisionphoto"
+                    android:layout_margin="5dp"
+                    android:layout_below="@+id/supertext"/>
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="10dp"
+            android:layout_below="@id/placementdeskcard"
+            android:id="@+id/companycard">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:text="CAREER OPPORTUNITIES"
+                    android:textAlignment="center"
+                    android:id="@+id/companyvisitedtext"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="100dp"
+                    />
+                <ViewFlipper
+                    android:layout_height="150dp"
+                    android:layout_below="@+id/companyvisitedtext"
+                    android:layout_width="250dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_margin="10dp"
+                    android:id="@+id/companyvisited">
+
+                </ViewFlipper>
+
+
+
+
+
+
+
+
+
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

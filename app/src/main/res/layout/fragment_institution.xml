@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+
+    tools:context=".Institution">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="RAJEEV INSTITUTE OF TECHNOLOGY"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+        <ProgressBar xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/progressstart"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp" />
+        <ImageView
+            android:id="@+id/collagephoto"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/textView1"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/collagephoto"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:layout_margin="8dp"
+            android:textColor="@color/colorPrimary"
+
+            android:text="Rajeev Institute of Technology was started as one in the galaxy of Technical Colleges in the year 2008. Rajeev Institute of Technology in Hassan was established under the aegis of Rajeev Education Trust. It has carved a niche for itself as a premier centre for Technical Education.
+
+\n\nYou'll find that everything at RIT is single mindedly focused on addressing student needs. We are clear that it is our responsibility to help our students realize their goals in an increasingly competitive world. We have consistently produced excellent results and RIT alumni can be found at premier organizations in India and overseas. From academic excellence to leadership qualities, a nurturing environment to cutting edge infrastructure, RIT offers everything you need to succeed.
+
+\n\nAt RIT, prepare to be constantly challenged, whether it is in the classroom or outside. You can look forward to being trained by stellar faculty, getting hands on experience at leading organizations and building enduring bonds with your peers.
+
+\n\nAll professional education is driven ultimately by practical societal needs. Nevertheless, these needs can be connected to deeper concerns that are the normal subjects of pure academic inquiry. Certainly, academic inquiry in the engineering, social sciences and even many of the natural sciences is driven by interests in practical issues as much as by the pursuit of knowledge for its own sake.
+
+\n\nTo embark on a journey of triumph one needs the paraphernalia of knowledge, opportunity and skills to create values. In order to initiate these values Rajeev Institute of Technology an affiliated college of Visvesvaraya Technological University, approved by All India Council for Technical Education (AICTE) is a unique initiative of Rajeev Education Trust started in December 1998 under the aegis of Dr. V Rajeev a medical practitioner and philanthropist of Hassan.
+
+\n\nEstablished in 2008, Rajeev Institute of Technology offers 4 year engineering courses and has a total of 6 Academic Departments, 4 Postgraduate and Interdisciplinary Program. It is reputed for the quality of its faculty and the outstanding calibre of students graduating from its undergraduate and postgraduate programmes. The institute has holistic approach towards education and training. We at RIT systematize professional manpower for tomorrow and future. In quest of this commitment, the management and faculty accept the responsibility to ensure ceaseless progress towards this objective.
+
+\n\nThe Rajeev Educational Trust was started by people of noble thoughts, who aimed at bringing about quality education and also to serve members of the society at a large scale. The institution is managed by Dr. Rajeev who is the President of the trust and paediatrician of Rajeev Hospital and Dr. B.N Rathna Rajeev who is the secretary of the trust. Rajeev Hospital started in which helps the students gain their practical experiences as well as provide quality treatment to the patients.
+"
+            android:textSize="18sp" />
+
+    </RelativeLayout>
+
+
+</ScrollView>

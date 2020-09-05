@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".NationalSS">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="National Service Scheme"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:id="@+id/id1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:text="Empasis is laid through this programme to reach out to the remote villages and educate the rural masses about hygiene, meaning of quality health and education, how to take care of babies, importance of small families, taking care of girl child etc.
+
+Students will be encouraged to take part in the social service activities, so that they will have an understanding of human conditions in rural areas."
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/id11"
+            android:layout_below="@+id/id1"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/id11"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/id11"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image1"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image1"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image2"
+            android:layout_marginTop="105dp"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image2"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image3"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image3"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image4"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image4"
+            android:layout_margin="5dp"/>
+    </RelativeLayout>
+</ScrollView>

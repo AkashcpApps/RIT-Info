@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".Civil">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Civil Engineering"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="95dp"/>
+        <ImageView
+            android:id="@+id/civilhodimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:layout_below="@+id/head"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/civilhodimage"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Mr Sujay S "/>
+        <TextView
+            android:id="@+id/designation"
+            android:layout_toRightOf="@+id/name"
+            android:layout_above="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="8dp"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="B.E , M.Tech"/>
+        <TextView
+            android:id="@+id/post"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_school"
+            android:layout_height="wrap_content"
+            android:text="Asst.Professor and Head"/>
+        <TextView
+            android:id="@+id/mail"
+            android:layout_below="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_mail"
+            android:layout_height="wrap_content"
+            android:text="sjybabu7@gmail.com"/>
+        <TextView
+            android:id="@+id/number"
+            android:layout_below="@+id/mail"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_call"
+            android:layout_height="wrap_content"
+            android:text="9743083229"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:text="Being one of the oldest branches of engineering makes the society more sophiscated and provides comfort to the people.
+The Civil Engineering Department of RIT was established in the year 2010 with an intake of 60 students which increased to 120 students in the year 2014.
+
+The Department offers an under graduate program in Civil engineering.It has well equipped laboratories with sophisticated and state of the art instruments and faculty.
+With highly qualified faculty and dedicated technical staff the department provides an ideal environment for acadamic pursuits.
+
+The department also undertake many consultancy projects from industry and other organizations in the field of concrete technology,soil mechanics and environmental
+engineering.The vision of the department is to effectively train our students as Civil  Engineers who can serve the society competently,collaboratively and ethically.
+"/>
+        <TextView
+            android:id="@+id/head2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculties"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/description"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/head2"
+            android:id="@+id/cvrecycle"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+</ScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Workshop">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Laboratory And Workshops"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="true"        android:id="@+id/id1"
+        android:textSize="20dp"
+        android:padding="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teaching is complete only when the practical aspects of the subject are taught in addition to the therotical subjects.\n
+ RIT has well equipped computer labs. The computer centre provides computational facilities to users at RIT. The centre also administers the computer network and internet links. The campus-wide fiber optic network provides a high-speed connectivity. Each department is provided with separate internet connections. The whole campus of RIT is a WI-FI zone
+ \nRIT has well equipped Physics laboratory and Chemistry laboratory with all the required facilities and the equipments. The department has qualified and experienced faculty, with all necessary infrastructure.
+\nThe workshop laboratory facilitate large working area with proper ventilation and light and have well equipment’s like Bench-Vices, Leg-Vices, Arc welding machine , Anvils, different types of Hammers, Files, Good quality measuring instruments, Marking Instrument etc. The guidelines are given by well-trained Instructors and faculty"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/id11"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/id1"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/id11"
+        android:layout_marginTop="105dp"/>
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/id11"
+        android:layout_margin="5dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image1"
+        android:layout_marginTop="105dp"/>
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/image1"
+        android:layout_margin="5dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image2"
+        android:layout_marginTop="105dp"/>
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/image2"
+        android:layout_margin="5dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image3"
+        android:layout_marginTop="105dp"/>
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/image3"
+        android:layout_margin="5dp"/>
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/image4"
+        android:layout_marginTop="105dp"/>
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@+id/image4"
+        android:layout_margin="5dp"/>
+</RelativeLayout>
+
+</ScrollView>

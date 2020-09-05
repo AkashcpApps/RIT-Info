@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".CollegeAuthority">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Principal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:id="@+id/principaltext"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:layout_below="@+id/principaltext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="200dp"
+
+            android:id="@+id/imageprincial"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/imageprincial"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Dr. A N RAMAKRISHNA "/>
+        <TextView
+            android:id="@+id/designation"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text="B.E , M.Tech , Ph.D"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vice Principal"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_below="@+id/designation"
+            android:id="@+id/viceprincipaltext"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/viceprincipaltext"
+            android:layout_marginTop="85dp"/>
+        <ImageView
+            android:layout_below="@+id/viceprincipaltext"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_height="200dp"
+
+            android:id="@+id/imageviceprincial"/>
+        <TextView
+            android:id="@+id/name1"
+            android:layout_below="@+id/imageviceprincial"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Dr. DHANANJAYA D A "/>
+        <TextView
+            android:id="@+id/designation1"
+            android:layout_below="@+id/name1"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"
+            android:text="B.E , M.Tech , Ph.D , MISTE , MIE , LMC"/>
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

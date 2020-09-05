@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".Mtech">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Library and Information"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/libtext" />
+    <ProgressBar
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="105dp"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/libhod"
+
+        android:layout_margin="5dp"
+        android:layout_below="@+id/libtext"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@+id/libhod"
+        android:layout_width="wrap_content"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_height="wrap_content"
+        android:text="Dr Thammanna H N"/>
+    <TextView
+        android:id="@+id/designation"
+        android:layout_toRightOf="@+id/name"
+        android:layout_above="@+id/post"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginLeft="8dp"
+        android:textSize="12dp"
+        android:layout_marginBottom="5dp"
+
+        android:layout_height="wrap_content"
+        android:text="M.A , M.L.I.Sc , Ph.D"/>
+    <TextView
+        android:id="@+id/post"
+        android:layout_below="@+id/name"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18dp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_school"
+        android:layout_height="wrap_content"
+        android:text="Chief Librarian"/>
+    <TextView
+        android:id="@+id/mail"
+        android:layout_below="@+id/post"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_mail"
+        android:layout_height="wrap_content"
+        android:text="ritlibrariantha@gmail.com"/>
+    <TextView
+        android:id="@+id/number"
+        android:layout_below="@+id/mail"
+        android:layout_width="wrap_content"
+        android:textColor="#000"
+        android:layout_marginTop="5dp"
+
+        android:layout_marginLeft="15dp"
+        android:textSize="15dp"
+        android:drawableTint="@color/colorPrimary"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/icon_call"
+        android:layout_height="wrap_content"
+        android:text="8050310259"/>
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/number"
+        android:layout_margin="5dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="italic"
+        android:textSize="18dp"
+        android:text="The Department of Library and Information was established with a view to provide the students access
+to various books, journals and research publications. The department has a separate issue, reference
+and digital library sections with dedicated and friendly staffs. The library has a vast repository of books
+in the field of engineering and technology, general knowledge, personality development, and spirituality.
+Presently, the department has a collection of over 23500 volumes with more than 8200 titles. It is also
+having a large collection of journals and research publications.
+The library has subscription to VTU e-Consortium and 13 daily newspapers."/>
+
+
+    <TextView
+        android:id="@+id/head2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Faculties"
+        android:layout_marginTop="10dp"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textColor="@color/colorAccent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/description"/>
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/head2"
+        android:id="@+id/librecycle"
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".ExtraActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Extra Ciricular Activity"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:id="@+id/id1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:textSize="15dp"
+            android:textStyle="italic"
+            android:text="Co-curricular and extra curricular activities are the essential part of education imparted in our institution. Various camps, cultural activities, activities in sports and games receive equal importance as they complement a wholesome and healthy personality development of the students. \n\nThe campus has a huge play ground surrounded with greenery to enthuse our students for playing outdoor games like cricket, basket ball, foot ball, throw ball and volley ball. The campus also has many indoor games. Students will be encouraged to take part in social service activities, so that they will have an understanding of human conditions in rural areas."
+
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/id11"
+            android:layout_below="@+id/id1"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/id11"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/id11"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image1"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image1"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image2"
+            android:layout_marginTop="105dp"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image2"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image3"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image3"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image4"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image4"
+            android:layout_margin="5dp"/>
+    </RelativeLayout>
+
+</ScrollView>

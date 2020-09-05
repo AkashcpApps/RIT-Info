@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".Elecrical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Electrical and Electronics"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="95dp"/>
+        <ImageView
+            android:id="@+id/elehodimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:layout_below="@+id/head"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/elehodimage"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Mr Radhakrishna K R "/>
+        <TextView
+            android:id="@+id/designation"
+            android:layout_toRightOf="@+id/name"
+            android:layout_above="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="8dp"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="B.E , M.Tech , (Ph.D)"/>
+        <TextView
+            android:id="@+id/post"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_school"
+            android:layout_height="wrap_content"
+            android:text="Asst.Professor and Head"/>
+        <TextView
+            android:id="@+id/mail"
+            android:layout_below="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_mail"
+            android:layout_height="wrap_content"
+            android:text="kr_radhakrishna2004@yahoo.com"/>
+        <TextView
+            android:id="@+id/number"
+            android:layout_below="@+id/mail"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_call"
+            android:layout_height="wrap_content"
+            android:text="9972595006"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:text="We are committed to develop quality engineers with the right attitude having a blend of technical and managerial skills and high standards of professionalism and
+ethics.
+
+The Department of Electrical and Electronics Engineering was started in the acadamic year 2008-2009.The Department offers an undergraduate program in the field of
+Electrical and Electronics Engineering for which the student intake is currently 60.The Department of Electrical and Electronics Engineering is approved by the All India
+Council for Technical Education(AICTE), and is permanently affiliated to Visvesvaraya Technology University(VTU),Belgavi in Karnataka.The department has well-qualified
+,passionate,dedicated faculty and has a well-connected alumni network.The department prepares professionals with the capacity to apply their knowledge,skills,attitudes,
+and the most recent technological developments to the solution of problems in our society.
+
+The graduates will acquire core competence in fundamentals of Electrical and Electronics Engineering necessary to formulate,design,analyze,solve engineering problems
+and pursue career advancement through professional certifications and take up challenging professionals and leadership positions.
+
+The graduates will engage in the activities that demonstrate desire for ongoing professional and personal growth with self-confidence to adapt to rapid changes.The
+graduates will engage in the activities that demonstrate desire for ongoing professional and personal growth with self-confidence to adapt to rapid changes.The
+graduates will maintain high professionalism,ethical values,effective oral and written communication skills and work as part of teams on multidisciplinary projects
+under diverse professional environments and safeguard social interests.
+"/>
+        <TextView
+            android:id="@+id/head2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculties"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/description"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/head2"
+            android:id="@+id/eerecycle"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+</ScrollView>

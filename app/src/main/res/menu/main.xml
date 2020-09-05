@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/notifications"
+        android:title="Notification"
+        android:icon="@drawable/icon_notification"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/item1"
+        android:title="item1"
+        android:icon="@drawable/icon_options"
+        app:showAsAction="never">
+
+        <item android:id="@+id/documents"
+            android:title="Documents Download"
+            app:showAsAction="never"/>
+        <item android:id="@+id/vtu"
+            android:title="VTU Circulars"
+            app:showAsAction="never"/>
+        <item android:id="@+id/internshala"
+            android:title="AICTE Internshala"
+            app:showAsAction="never"/>
+        <item android:id="@+id/notes"
+            android:title="Spark Notes"
+            app:showAsAction="never"/>
+        <item android:id="@+id/update"
+            android:title="Check Update"
+            app:showAsAction="never"/>
+        <item android:id="@+id/signout"
+                android:title="Sign Out"
+                app:showAsAction="never"/>
+    </item>
+
+
+
+
+
+</menu>

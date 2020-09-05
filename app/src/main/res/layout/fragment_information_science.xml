@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+
+    tools:context=".InformationScience">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/head"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Information Science"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="22dp"
+            android:textStyle="bold"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="95dp"/>
+        <ImageView
+            android:id="@+id/ishodimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/head"
+            android:layout_margin="5dp"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_below="@+id/ishodimage"
+            android:layout_width="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:textSize="22dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="wrap_content"
+            android:text="Mr Arjun B C "/>
+        <TextView
+            android:id="@+id/designation"
+            android:layout_toRightOf="@+id/name"
+            android:layout_above="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginLeft="8dp"
+            android:textSize="12dp"
+            android:layout_marginBottom="5dp"
+
+            android:layout_height="wrap_content"
+            android:text="B.E , M.Tech , (Ph.D)"/>
+        <TextView
+            android:id="@+id/post"
+            android:layout_below="@+id/name"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_school"
+            android:layout_height="wrap_content"
+            android:text="Asst.Professor and Head"/>
+        <TextView
+            android:id="@+id/mail"
+            android:layout_below="@+id/post"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_mail"
+            android:layout_height="wrap_content"
+            android:text="bc.arjun@gmail.com"/>
+        <TextView
+            android:id="@+id/number"
+            android:layout_below="@+id/mail"
+            android:layout_width="wrap_content"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:drawableTint="@color/colorPrimary"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@drawable/icon_call"
+            android:layout_height="wrap_content"
+            android:text="9844584208"/>
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/number"
+            android:layout_margin="5dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="italic"
+            android:textSize="18dp"
+            android:text="Information Science Technology is committed to provide precise,complete and relevent information to the modern society in all practices.Our motive is to meet and
+fulfill the growning demands of market by providing best quality services through well-skilled and highly qualified engineers. In order to facilitate the students
+for gaining true knowledge,skills and personality,we provide a standardzied,well managed,state-of-the-art infrastructure.
+
+Main emphasis is imparting knowledge in students.Regular workshop are conducted to update the technical skills of students by the faculty and industrial experts.
+Developing on-demand live projects is a regular task.
+
+The department of Information Science and Engineering was started in the year 2008.It has a current intake of 60 students for Under Graduate course.The institute
+being affiliated to Visvesvaraya Technology University,Belagavi,the curriculum,examination and other acadamic structure of the department are as defined by the
+university.The curriculum is desinged to meet current industrial requirments and is supported by the state-of-the art laboratories in all major areas of Information
+Technology.
+
+The faculty members in our department are active in a wide range of research areas,from robotics to networking to software to software system.Research opportunities
+for undergraduate students give students an opportunity to work closely with faculty and learn about acadamic projects.Graduate students develop independent projects
+with faculty guidence and graduate ready to move forward in acadamic or industry,.We are an active department with lots of opportunities for students to get involved
+and alumni to say connected.
+
+"/>
+        <TextView
+            android:id="@+id/head2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Faculty"
+            android:layout_marginTop="10dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/description"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/head2"
+            android:id="@+id/isrecycle"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+</ScrollView>

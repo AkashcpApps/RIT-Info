@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Library">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:textAllCaps="true"
+            android:id="@+id/id1"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Institute has a spacious library with a seating capacity for 200 students. The library has 19529 volumes of books with 5824 titles. 69 national and 40 international journals are available in the library. The library has subscribed many E-Journals for the latest knowledge for our students. There is also a separate Digital Library with internet for accessing E-Journals and to download the same.
+\nThe Institute library also has a Language laboratory which comprises of many software kits and books to enhance their LSRW (Listening, Speaking, Reading and Writing) skills."
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/id11"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/id1"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/id11"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/id11"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image1"
+            android:layout_marginTop="105dp"/>
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image1"
+            android:layout_margin="5dp"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/image2"
+            android:layout_marginTop="105dp"/>
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_below="@+id/image2"
+            android:layout_margin="5dp"/>
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/main">
+        <item
+            android:id="@+id/home"
+            android:enabled="true"
+            android:icon="@drawable/icon_home"
+            android:title="Home" />
+
+    </group>
+    <group        >
+
+            <item
+                android:id="@+id/events_calender"
+                android:icon="@drawable/icon_events_calender"
+                android:title="Events Calender" />
+            <item
+                android:id="@+id/rit_blog"
+                android:icon="@drawable/icon_blogs"
+                android:title="RIT Blog" />
+            <item
+                android:id="@+id/explore_rit"
+                android:icon="@drawable/icon_explore"
+
+                android:title="Explore RIT" />
+        <item
+            android:id="@+id/place"
+            android:icon="@drawable/drives"
+
+            android:title="Placements" />
+
+    </group>
+
+    <item android:title="Students Corner"
+       >
+        <menu>
+            <item
+                android:id="@+id/syllabus"
+                android:icon="@drawable/about"
+                android:title="Syllabus" />
+            <item
+                android:id="@+id/notes"
+                android:icon="@drawable/icon_notes"
+                android:title="VTU e-Learning" />
+            <item
+                android:id="@+id/internaltimetables"
+                android:icon="@drawable/icon_timetable"
+                android:title="Timetable" />
+
+            <item
+                android:id="@+id/details"
+                android:icon="@drawable/icon_internals"
+                android:title="Internal Marks" />
+            <item
+                android:id="@+id/resuts"
+                android:icon="@drawable/icon_result"
+                android:title="Results" />
+
+        </menu>
+    </item>
+    <item android:title="Communicate"
+        >
+        <menu >
+            <item android:titleCondensed=""
+                android:id="@+id/contact"
+                android:icon="@drawable/icon_call"
+                android:title="Quick Contacts" />
+            <item android:titleCondensed=""
+                android:id="@+id/developer"
+
+                android:icon="@drawable/icon_developer"
+                android:title="Developer" />
+
+            <item android:titleCondensed=""
+                android:id="@+id/feedback"
+
+                android:icon="@drawable/icon_send"
+                android:title="Feedback" />
+            <item android:titleCondensed=""
+                android:id="@+id/shareapp"
+
+                android:icon="@drawable/icon_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
